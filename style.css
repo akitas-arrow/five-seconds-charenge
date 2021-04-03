@@ -46,10 +46,25 @@ section {
   border-radius: 5px;
   box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
   transform: translateY(0);
-  transition: transform 1s ease-in-out 0.5s;
+  transition: transform 1s ease-in-out 0.25s;
 }
 
 section.hidden {
   transform: translateY(-150%);
   transition: transform 1s ease-in-out 0s;
+}
+
+.container {
+  position: relative;
+}
+
+#message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-25deg);
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+  color: rgba(33, 164, 143, 0.6);
 }
