@@ -1,0 +1,28 @@
+.wrapper {
+  text-align: center;
+  padding: 100px 0;
+}
+
+#timer {
+  font-size: 30px;
+  opacity: 0;
+  transition: opacity 1.2s linear;
+  color: rgba(33, 164, 143, 1);
+}
+
+#timer.view {
+  opacity: 1;
+  transition: opacity 0s linear;
+}
+
+#btn {
+  height: 60px;
+  font-size: 20px;
+  line-height: 60px;
+  background-color: rgba(33, 164, 143, 1);
+  color: #fff;
+  width: 100px;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 5px;
+}
