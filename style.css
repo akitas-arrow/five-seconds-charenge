@@ -6,7 +6,7 @@
 #timer {
   font-size: 30px;
   opacity: 0;
-  transition: opacity 1.2s linear;
+  transition: opacity 1s linear;
   color: rgba(33, 164, 143, 1);
 }
 
