@@ -15,7 +15,7 @@
 
 #timer.hidden {
   opacity: 0;
-  transition: opacity 1.2s linear;
+  transition: opacity 1s linear;
 }
 
 .btn {
